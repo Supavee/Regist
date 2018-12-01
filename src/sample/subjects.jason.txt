@@ -1,0 +1,219 @@
+[
+    {
+        "NameSubject": "Calculus I",
+        "IDSubject": "01417111",
+        "Status": "NotPass",
+        "toNameSubject": "Calculus II"
+        "toIDSubject": "01417112"
+        "BeforeThisSubject": [ "NULL" ]
+    }
+    {
+        "NameSubject": "Fund. Programming Concepts",
+        "IDSubject": "01418112",
+        "Status": "NotPass",
+        "toSubject": "Computer Programming"
+        "toIDSubject": "01418113"
+        "beforeThisSubject": [ "01418114" ]
+    }
+    {
+        "NameSubject": "Intro. to Computer Science",
+        "IDSubject": "01418114",
+        "Status": "NotPass",
+        "toSubject": "Fund. Programming Concepts"
+        "toIDSubject": "01418112"
+        "beforeThisSubject": [ "NULL" ]
+    }
+    {
+        "NameSubject": "Digital Computer Logic",
+        "IDSubject": "01418131",
+        "Status": "NotPass",
+        "toSubject": "Assembly Language and Computer Architecture",
+        "toIDSubject": "01418233",
+        "beforeThisSubject": [ "NULL" ]
+    }
+    {
+        "NameSubject": "Knowledge of the Land",
+        "IDSubject": "01999111",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "NULL" ]
+    }
+
+
+
+
+    {
+        "NameSubject": "Calculus II",
+        "IDSubject": "01417112",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "01417111" ]
+    }
+    {
+        "NameSubject": "Computer Programming",
+        "IDSubject": "01418113",
+        "Status": "NotPass",
+        "toSubject": ["Software Construction","Fundamental of Database Systems","Assembly Language and Computer Architecture"]
+        "toIDSubject": ["01418211","01418221","01418233"]
+        "beforeThisSubject": [ "01418112" ]
+    }
+    {
+        "NameSubject": "Fundamentals of Computing",
+        "IDSubject": "01418132",
+        "Status": "NotPass",
+        "toSubject": ["Algorithms Design & Analysis","Automata Theory"]
+        "toIDSubject": ["01418232","01418333"]
+        "beforeThisSubject": [ "NULL" ]
+    }
+
+
+
+
+
+
+    {
+        "NameSubject": "Basic Linear Algebra",
+        "IDSubject": "01417322",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "01417112" ]
+    }
+    {
+        "NameSubject": "Software Construction",
+        "IDSubject": "01418211",
+        "Status": "NotPass",
+        "toSubject": "System Analysis & Design",
+        "toIDSubject": "01418321",
+        "beforeThisSubject": [ "01418113" ]
+    }
+    {
+        "NameSubject": "Data Structures",
+        "IDSubject": "01418231",
+        "Status": "NotPass",
+        "toSubject": "Algorithms Design & Analysis"
+        "toIDSubject": "01418232"
+        "beforeThisSubject": [ "01418113" ]
+    }
+    {
+        "NameSubject": "Principles of Statistics",
+        "IDSubject": "01422111",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "NULL" ]
+    }
+
+
+
+
+
+    {
+        "NameSubject": "Fundamental of Database Systems",
+        "IDSubject": "01418221",
+        "Status": "NotPass",
+        "toSubject": ["System Analysis & Design","Seminar"]
+        "toIDSubject": ["01418321","01418491"]
+        "beforeThisSubject": [ "01418113" ]
+    }
+    {
+        "NameSubject": "Assembly Language and Computer Architecture",
+        "IDSubject": "01418233",
+        "Status": "NotPass",
+        "toSubject": "Operating Systems",
+        "toIDSubject": "01418331",
+        "beforeThisSubject": [ "01418113" ,"01418131"]
+
+    }
+    {
+        "NameSubject": "Algorithms Design & Analysis",
+        "IDSubject": "01418232",
+        "Status": "NotPass",
+        "toSubject": "NULL",
+        "toIDSubject": "NULL",
+        "beforeThisSubject": [ "01418231","01418132" ]
+    }
+
+
+
+
+    {
+        "NameSubject": "Operating Systems",
+        "IDSubject": "01418331",
+        "Status": "NotPass",
+        "toSubject": ["Information System Security","Computer Communications & Protocols"]
+        "toIDSubject": ["01418332","01418351"]
+        "beforeThisSubject": [ "01418233" ]
+    }
+    {
+        "NameSubject": "System Analysis & Design",
+        "IDSubject": "01418321",
+        "Status": "NotPass",
+        "toSubject": "Cooperative Education",
+        "toIDSubject": "01418390",
+        "beforeThisSubject": [ "01418221","01418211" ]
+    }
+    {
+        "NameSubject": "Intellectual Prop. & Profess. Ethics",
+        "IDSubject": "01418341",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "NULL" ]
+    }
+    {
+        "NameSubject": "Seminar",
+        "IDSubject": "01418497",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "01418221" ]
+    }
+
+
+
+
+
+    {
+        "NameSubject": "Information System Security",
+        "IDSubject": "01418332",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "01418331" ]
+    }
+    {
+        "NameSubject": "Automata Theory",
+        "IDSubject": "01418333",
+        "Status": "NotPass",
+        "toSubject": "Compiler Techniques",
+        "toIDSubject": "01418334",
+        "beforeThisSubject": [ "01418132" ]
+    }
+    {
+        "NameSubject": "Computer Communications & Protocols",
+        "IDSubject": "01418351",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "01418331" ]
+    }
+    {
+        "NameSubject": "Cooperative Education Preparation",
+        "IDSubject": "01418390",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "01418321" ]
+    }
+    {
+        "NameSubject": "Compiler Techniques",
+        "IDSubject": "01418334",
+        "Status": "NotPass",
+        "toSubject": "NULL"
+        "toIDSubject": "NULL"
+        "beforeThisSubject": [ "01418333" ]
+    }
+]
